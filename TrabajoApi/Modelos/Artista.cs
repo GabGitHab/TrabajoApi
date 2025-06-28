@@ -19,6 +19,10 @@ namespace TrabajoApi.Modelos
         public CategoriaArtista CategoriaArtista { get; set; }
         public int CategoriaArtistaId { get; set; }
 
+        public int UsuarioId { get; set; }
+        public Usuario Usuario { get; set; }
+
+
         public Artista() { }
         public Artista(string nombre, string genero, DateTime fechaNacimiento, string nacionalidad, int categoriaId)
         {

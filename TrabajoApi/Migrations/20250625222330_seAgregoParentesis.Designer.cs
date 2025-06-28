@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace TrabajoApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250625222330_seAgregoParentesis")]
+    partial class seAgregoParentesis
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -47,14 +50,9 @@ namespace TrabajoApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CategoriaArtistaId");
-
-                    b.HasIndex("UsuarioId");
 
                     b.ToTable("Artistas");
                 });
@@ -83,27 +81,6 @@ namespace TrabajoApi.Migrations
                     b.ToTable("CategoriaArtistas");
                 });
 
-            modelBuilder.Entity("TrabajoApi.Modelos.Usuario", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("NombreUsuario")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswordHash")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Usuarios");
-                });
-
             modelBuilder.Entity("TrabajoApi.Modelos.Artista", b =>
                 {
                     b.HasOne("TrabajoApi.Modelos.CategoriaArtista", "CategoriaArtista")
@@ -112,23 +89,10 @@ namespace TrabajoApi.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TrabajoApi.Modelos.Usuario", "Usuario")
-                        .WithMany("Artistas")
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("CategoriaArtista");
-
-                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("TrabajoApi.Modelos.CategoriaArtista", b =>
-                {
-                    b.Navigation("Artistas");
-                });
-
-            modelBuilder.Entity("TrabajoApi.Modelos.Usuario", b =>
                 {
                     b.Navigation("Artistas");
                 });

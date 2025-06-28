@@ -59,7 +59,7 @@ namespace CategoriaArtistas.Controllers
             return CreatedAtAction(nameof(GetCategoriaArtista), new { catArtista.Id }, catArtista);
         }
 
-        [HttpPut("{id")]
+        [HttpPut("{id}")]
         public ActionResult<CategoriaArtista> PutCategoriaArtistas(int id, [FromBody] CategoriaArtista catArtista)
         {
             if (id != catArtista.Id)

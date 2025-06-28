@@ -7,6 +7,7 @@ public class AppDbContext : DbContext
 
     public DbSet<Artista> Artistas { get; set; }
     public DbSet<CategoriaArtista> CategoriaArtistas { get; set; }
+    public DbSet<Usuario> Usuarios { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -16,6 +17,11 @@ public class AppDbContext : DbContext
             .HasOne(artista => artista.CategoriaArtista)
             .WithMany(categoriaArtista => categoriaArtista.Artistas)
             .HasForeignKey(artista => artista.CategoriaArtistaId);
+
+        modelBuilder.Entity<Usuario>()
+            .HasMany(usuario => usuario.Artistas)
+            .WithOne(artista => artista.Usuario)
+            .HasForeignKey(artista => artista.UsuarioId);
     }
 }
 
