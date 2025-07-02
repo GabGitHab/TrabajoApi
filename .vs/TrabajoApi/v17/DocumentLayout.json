@@ -1,0 +1,316 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\modelos\\categoriaartista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\modelos\\categoriaartista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\controllers\\categoriaartistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\controllers\\categoriaartistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\dtos\\registrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\dtos\\registrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\dtos\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\dtos\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\dtos\\respuestatoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\dtos\\respuestatoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\dtos\\artistasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\dtos\\artistasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\modelos\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\modelos\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\helpers\\autentica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\helpers\\autentica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Migrations\\20250702032137_cambiosEnModeloUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrabajoApi\\Migrations\\20250702032137_cambiosEnModeloUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Migrations\\20250702031257_cambiosEnModelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrabajoApi\\Migrations\\20250702031257_cambiosEnModelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|c:\\users\\gabriel\\source\\repos\\trabajoapi\\trabajoapi\\migrations\\20250623232804_inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007CB740-9DEC-4347-8DA2-442FDC6145AB}|TrabajoApi\\TrabajoApi.csproj|solutionrelative:trabajoapi\\migrations\\20250623232804_inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "TrabajoApi\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wEMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T05:10:47.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriaArtista.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Modelos\\CategoriaArtista.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Modelos\\CategoriaArtista.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Modelos\\CategoriaArtista.cs",
+              "RelativeToolTip": "TrabajoApi\\Modelos\\CategoriaArtista.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:57:05.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistroUsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\DTOs\\RegistroUsuarioDto.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\DTOs\\RegistroUsuarioDto.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\DTOs\\RegistroUsuarioDto.cs",
+              "RelativeToolTip": "TrabajoApi\\DTOs\\RegistroUsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:08:00.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArtistasController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Controllers\\ArtistasController.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Controllers\\ArtistasController.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Controllers\\ArtistasController.cs",
+              "RelativeToolTip": "TrabajoApi\\Controllers\\ArtistasController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T00:31:00.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaArtistasController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Controllers\\CategoriaArtistasController.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Controllers\\CategoriaArtistasController.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Controllers\\CategoriaArtistasController.cs",
+              "RelativeToolTip": "TrabajoApi\\Controllers\\CategoriaArtistasController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwGAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:54:58.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TrabajoApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIA0wBEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:38:46.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Modelos\\Usuario.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Modelos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Modelos\\Usuario.cs",
+              "RelativeToolTip": "TrabajoApi\\Modelos\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T22:37:36.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\DTOs\\UsuarioLoginDto.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\DTOs\\UsuarioLoginDto.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\DTOs\\UsuarioLoginDto.cs",
+              "RelativeToolTip": "TrabajoApi\\DTOs\\UsuarioLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:09:45.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RespuestaToken.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\DTOs\\RespuestaToken.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\DTOs\\RespuestaToken.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\DTOs\\RespuestaToken.cs",
+              "RelativeToolTip": "TrabajoApi\\DTOs\\RespuestaToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T03:03:29.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArtistasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\DTOs\\ArtistasDTO.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\DTOs\\ArtistasDTO.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\DTOs\\ArtistasDTO.cs",
+              "RelativeToolTip": "TrabajoApi\\DTOs\\ArtistasDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T03:00:23.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Artista.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Modelos\\Artista.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Modelos\\Artista.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Modelos\\Artista.cs",
+              "RelativeToolTip": "TrabajoApi\\Modelos\\Artista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:51:36.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Program.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Program.cs",
+              "RelativeToolTip": "TrabajoApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:29:26.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TrabajoApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\appsettings.json",
+              "RelativeToolTip": "TrabajoApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T22:29:22.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Autentica.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Helpers\\Autentica.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Helpers\\Autentica.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Helpers\\Autentica.cs",
+              "RelativeToolTip": "TrabajoApi\\Helpers\\Autentica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T05:31:08.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250702032137_cambiosEnModeloUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Migrations\\20250702032137_cambiosEnModeloUsuario.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Migrations\\20250702032137_cambiosEnModeloUsuario.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Migrations\\20250702032137_cambiosEnModeloUsuario.cs",
+              "RelativeToolTip": "TrabajoApi\\Migrations\\20250702032137_cambiosEnModeloUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T03:21:37.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250702031257_cambiosEnModelo.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Migrations\\20250702031257_cambiosEnModelo.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Migrations\\20250702031257_cambiosEnModelo.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Migrations\\20250702031257_cambiosEnModelo.cs",
+              "RelativeToolTip": "TrabajoApi\\Migrations\\20250702031257_cambiosEnModelo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T03:12:57.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250623232804_inicio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Migrations\\20250623232804_inicio.cs",
+              "RelativeDocumentMoniker": "TrabajoApi\\Migrations\\20250623232804_inicio.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\TrabajoApi\\TrabajoApi\\Migrations\\20250623232804_inicio.cs",
+              "RelativeToolTip": "TrabajoApi\\Migrations\\20250623232804_inicio.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T23:28:04.311Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

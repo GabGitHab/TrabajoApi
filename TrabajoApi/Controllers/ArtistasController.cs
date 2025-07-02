@@ -6,12 +6,15 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TrabajoApi.Modelos;
+using Microsoft.AspNetCore.Authorization;
+using TrabajoApi.DTOs;
+using TrabajoApi.Models.DTOs;
 
-
-namespace Artistas.Controllers
+namespace TrabajoApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class ArtistasController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -41,16 +44,25 @@ namespace Artistas.Controllers
             return Ok(artista);
         }
         [HttpPost]
-
-        public ActionResult<Artista> PostArtista([FromBody] Artista artista)
+        public ActionResult<Artista> PostArtista([FromBody] ArtistasDTO dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            CategoriaArtista? categoria = _context.CategoriaArtistas.FirstOrDefault(categoria => categoria.Id == artista.CategoriaArtistaId);
-
+            // Validar que la categoría existe
+            var categoria = _context.CategoriaArtistas.FirstOrDefault(c => c.Id == dto.CategoriaArtistaId);
             if (categoria == null)
                 return BadRequest("La categoría indicada no existe.");
+
+            // Crear entidad Artista con los datos del DTO
+            var artista = new Artista
+            {
+                Nombre = dto.Nombre,
+                Genero = dto.Genero,
+                FechaNacimiento = dto.FechaNacimiento,
+                Nacionalidad = dto.Nacionalidad,
+                CategoriaArtistaId = dto.CategoriaArtistaId
+            };
 
             _context.Artistas.Add(artista);
             _context.SaveChanges();
@@ -108,6 +120,5 @@ namespace Artistas.Controllers
 
             return Ok(true);
         }
-
     }
 }

@@ -337,3 +337,4 @@ F:\Repositorio CSharp\Api\TrabajoApi\obj\Debug\net8.0\TrabajoApi.pdb
 F:\Repositorio CSharp\Api\TrabajoApi\obj\Debug\net8.0\TrabajoApi.genruntimeconfig.cache
 F:\Repositorio CSharp\Api\TrabajoApi\obj\Debug\net8.0\ref\TrabajoApi.dll
 F:\Repositorio CSharp\Api\TrabajoApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Gabriel\source\repos\TrabajoApi\TrabajoApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

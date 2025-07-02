@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Infrastructure;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 namespace TrabajoApi.Modelos
 {
     public class CategoriaArtista
@@ -8,9 +9,10 @@ namespace TrabajoApi.Modelos
         [Required]
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-
+        [JsonIgnore]
         public int Artista { get; set; }
-        public List <Artista> Artistas { get; set; }
+        [JsonIgnore]
+        public List<Artista> Artistas { get; set; } = new();
 
         public CategoriaArtista() { }
 
