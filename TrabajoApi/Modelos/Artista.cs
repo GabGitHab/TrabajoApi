@@ -22,6 +22,8 @@ namespace TrabajoApi.Modelos
         public int UsuarioId { get; set; }
         public Usuario Usuario { get; set; }
 
+        public List<Espectaculo> Espectaculos { get; set; }
+        
 
         public Artista() { }
         public Artista(string nombre, string genero, DateTime fechaNacimiento, string nacionalidad, int categoriaId)
